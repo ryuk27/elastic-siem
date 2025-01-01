@@ -1,6 +1,6 @@
-# Elastic Stack SIEM Home Lab Guide
+# Elastic Stack SIEM Home Lab
 
-This guide explains how to set up a home lab for Elastic Stack Security Information and Event Management (SIEM) using the Elastic Web portal and a Kali Linux VM. You'll also learn to generate security events on the Kali VM, configure an agent to send data to the SIEM, and analyze the logs effectively.
+The project explains how to set up a home lab for Elastic Stack Security Information and Event Management (SIEM) using the Elastic Web portal and a Kali Linux VM. You'll also learn to generate security events on the Kali VM, configure an agent to send data to the SIEM, and analyze the logs effectively.
 
 
 ## Table of Contents
@@ -123,4 +123,4 @@ Before starting, ensure you have:
 ---
 
 ## Conclusion
-This guide provides a hands-on approach to setting up a SIEM home lab using Elastic Stack and Kali Linux. It equips you with practical skills for configuring, monitoring, and analyzing security events.
+The project provides a hands-on approach to setting up a SIEM home lab using Elastic Stack and Kali Linux. It equips you with practical skills for configuring, monitoring, and analyzing security events.
