@@ -113,7 +113,10 @@ Before starting, ensure you have:
 4. Enable the rule to monitor logs and trigger alerts for specific events.
 ![Screenshot 2025-01-01 014614](https://github.com/user-attachments/assets/8f55b49a-314f-474b-a4ff-55e3f8a25028)
 
-5. Final Outcome
+![Screenshot 2025-01-01 014729](https://github.com/user-attachments/assets/d19ae116-aeb2-42a9-8452-a2721197370b)
+
+
+6. Final Outcome
 ![Screenshot 2025-01-01 122235](https://github.com/user-attachments/assets/54e49566-e58a-47f4-9e67-850a020335bc)
 
 
