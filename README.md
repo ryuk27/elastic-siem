@@ -42,6 +42,7 @@ Before starting, ensure you have:
 4. Create a deployment and select “Elasticsearch” as the deployment type.
 5. Choose a region and deployment size, then create the deployment.
 6. Wait for configuration to complete.
+![image](https://github.com/user-attachments/assets/ff852ec4-5f72-429d-b220-3a75ce4f18ed)
 
 ---
 
@@ -50,15 +51,20 @@ Before starting, ensure you have:
 2. Create a new VM using VirtualBox or VMware.
 3. Start the VM and follow the prompts to install Kali Linux.
 4. Log in using credentials: `kali` (username) and `kali` (password).
+![image](https://github.com/user-attachments/assets/56a27b1a-861b-4255-8e41-ee2367c9bc80)
 
 ---
 
 ## Task 3: Setting up the Agent to Collect Logs
 1. Log in to the Elastic SIEM instance.
 2. Navigate to “Integrations” and search for “Elastic Defend.”
+![image](https://github.com/user-attachments/assets/2d0af930-a9a3-400d-8b7b-ace691f1e51e)
 3. Install the Elastic Defend agent on your Kali VM.
 4. Run the command provided in the Elastic portal on your Kali terminal.
+![Screenshot 2025-01-01 010538](https://github.com/user-attachments/assets/79abe86f-a807-4d0a-98b3-f9c559329906)
+![Screenshot 2025-01-01 010812](https://github.com/user-attachments/assets/513a53e1-9b51-4736-999c-dbe6058f40ac)
 5. Verify installation using: `sudo systemctl status elastic-agent.service`.
+![Screenshot 2025-01-01 011025](https://github.com/user-attachments/assets/21c6e477-73bb-419c-ab2f-e9a2e52c50fd)
 
 ---
 
@@ -69,6 +75,7 @@ Before starting, ensure you have:
    - `nmap -sS <ip-address>`
    - `nmap -sT <ip-address>`
    - `nmap -p- <ip-address>`
+![Screenshot 2025-01-01 011757](https://github.com/user-attachments/assets/0bbb9769-8a76-4074-9222-6c503f686cba)
 
 ---
 
@@ -82,16 +89,24 @@ Before starting, ensure you have:
 ## Task 6: Create a Dashboard to Visualize Events
 1. Go to “Dashboards” under “Analytics” in the Elastic web portal.
 2. Create a new dashboard and add visualizations.
+![image](https://github.com/user-attachments/assets/07c179af-05bf-45b2-8b4d-00b6ad517878)
 3. Use metrics like “Count” (vertical field) and “Timestamp” (horizontal field).
 4. Save your dashboard for future use.
+![image](https://github.com/user-attachments/assets/3747c62e-4787-4c4e-a211-5dd0eaa8373e)
 
 ---
 
 ## Task 7: Create an Alert
 1. Navigate to “Alerts” under “Security.”
 2. Create a custom rule with conditions for Nmap scan events.
+![Screenshot 2025-01-01 014449](https://github.com/user-attachments/assets/7bc27fee-a1a4-4dff-93e5-a39e775f6c8d)
+![Screenshot 2025-01-01 014520](https://github.com/user-attachments/assets/6e535ebd-51aa-4ef9-b51e-d902df7b7f4f)
 3. Define actions like sending notifications or triggering webhooks.
+![Screenshot 2025-01-01 014601](https://github.com/user-attachments/assets/278841bd-68b2-4ae1-a44f-c8747489b013)
 4. Enable the rule to monitor logs and trigger alerts for specific events.
+![Screenshot 2025-01-01 014614](https://github.com/user-attachments/assets/8f55b49a-314f-474b-a4ff-55e3f8a25028)
+5. Final Outcome
+![Screenshot 2025-01-01 122223](https://github.com/user-attachments/assets/d908ea77-8cc8-443c-9a22-91c39dace3f3)
 
 ---
 
